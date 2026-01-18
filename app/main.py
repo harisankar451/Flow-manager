@@ -4,7 +4,7 @@ from app.taskManager import FlowManager
 
 app = FastAPI()
 
-@app.post("/run-flow")
+@app.post("/flow-manager")
 async def run_flow(request: FlowRequest):
     try:
         manager = FlowManager(request.flow)
