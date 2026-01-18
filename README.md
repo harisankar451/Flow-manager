@@ -13,15 +13,17 @@ To satisfy the requirement that Task 3 (Store Data) only runs if all previous ta
 Recommended IDE Visual Studio Code.
 1. Download the project from Github
 2. Open the Project folder in VSCode
-3. Open the terminal in VSCode. Give the command to activate virtual environment
+3. Open the terminal in VSCode and create a virtual environment for python.
+    python -m venv venv
+4. Give the command to activate virtual environment
     venv\Scripts\activate
-4. Install the libraries from requirements files using
+5. Install the libraries from requirements files using
     pip install -r requirements.txt
-5. For testing
+6. For testing
     pytest tests/test.py 
-6. Run the project
+7. Run the project
     uvicorn app.main:app --reload
-7. API will be available in http://127.0.0.1:8000
+8. API will be available in http://127.0.0.1:8000
     For API documentation http://127.0.0.1:8000/docs
     Give the sample json file in Postman or API Documentation at http://127.0.0.1:8000/docs
     In the response we can see the task results.
