@@ -23,7 +23,6 @@ Recommended IDE Visual Studio Code.
     pytest tests/test.py 
 7. Run the project
     uvicorn app.main:app --reload
-8. API will be available in http://127.0.0.1:8000
-    For API documentation http://127.0.0.1:8000/docs
-    Give the sample json file in Postman or API Documentation at http://127.0.0.1:8000/docs
-    In the response we can see the task results.
+8. API will be available in http://127.0.0.1:8000/flow-manager
+    For API documentation http://127.0.0.1:8000/docs 
+    Give the sample json in Postman or API Documentation in the request body. In response we can see the task results.
